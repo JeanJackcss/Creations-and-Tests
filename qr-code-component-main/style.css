@@ -32,13 +32,18 @@ body {
     font-size: 12px;
     min-height: 100vh;
     display: grid;
+    grid-template-rows: 95% 1fr;
     place-items: center;
 }
 
 img {
     max-width: 100%;
+    width: 300px;
     height: auto;
+    display: block;
+    border-radius: 10px;
 }
+
 
 /* QR CARD */
 
