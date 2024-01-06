@@ -1,0 +1,53 @@
+/* FONTES */
+
+@font-face {
+    font-family: Outfit ;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit ;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(Outfit-Bold.ttf);
+}
+
+/* Base Styles */
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: unset;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';   
+    font-size: 12px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* QR CARD */
+
+main {
+    background-color: white;
+    max-width: 300px;
+    padding: 1.075rem;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0, 0%, 0%, 0.05);
+    text-align: center;
+    margin: 1.075rem;
+}
