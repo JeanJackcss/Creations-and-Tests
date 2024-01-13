@@ -1,0 +1,117 @@
+ /* BACKGROUND */
+
+ body {
+   background: hsl(217, 54%, 11%);
+   color: white;
+   font-family: 'Outfit';
+   padding: 150px;
+   position: relative;
+   display: flex;
+	align-items: center;
+	justify-content: center;
+    
+ }
+
+
+ .card {
+    background: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+ }
+
+ .imagecard {
+    border: 1px solid transparent;
+    border-radius: 10px;
+ }
+
+ /* TEXTOS */
+
+ h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+ }
+ 
+ span {
+
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+ }
+
+.preco {
+   padding-top: 20px;
+   padding-bottom: 20px ;
+   display: flex;
+	align-items: center;
+   
+
+   
+   }
+
+.preco1, .preco2 {
+   display: flex;
+	align-items: center;
+  
+  
+}
+
+ .preco1 img, .preco2 img {
+   margin-right: 10px;
+ }     
+
+
+ .preco2 {
+   padding-left: 100px;
+   font-weight: lighter;
+   font-size: 0.9em;
+   
+  
+ }  
+
+ hr {
+   color: white;
+   width: 260px;
+   opacity: 0.5;
+ 
+   
+   
+   
+ }
+
+.perfil {
+   padding-top: 5px;
+   display: flex;
+   font-weight:lighter
+   
+}
+
+.icontext {
+   padding-left: 10px;
+   padding-top: 5px;
+  
+}
+
+bolder {
+   font-weight: 600;
+}
+
+/* FOOTER */
+
+.footer { 
+   position: absolute;
+   bottom: -80px;
+   width: 100%;
+   display: block;
+   text-align: center;
+   font-size: 11px; 
+   color: hsl(228, 45%, 44%); }
